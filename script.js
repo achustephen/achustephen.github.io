@@ -11,7 +11,8 @@ window.addEventListener("scroll", () => {
 // 2. What units can be used with window.scrollY?
 // 3. Why use sticky positioning for the navbar? Why not use fixed positioning?
 // 4. How can you optimize the scroll event listener for better performance? - Moderate level
-// 5. What does transition property do in cs
+// 5. What does transition property do in css
+  //property, duration, timing-function, delay
 // 6. What does mx-auto do in CSS? - Easy level
 // 7. What does justify-content: center do in CSS? - Easy level
 // 8. What does align-items: center do in CSS? - Easy level
