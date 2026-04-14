@@ -284,9 +284,6 @@ section > *:not(:last-child) {
   background: #111;
   box-shadow: 0 0 20px rgba(255, 111, 97, 0.4);
 }
-.skill-card:hover .skill-icon {
-  transform: scale(1.2);
-}
 
 @media (max-width: 1000px) {
   .skills-container {
@@ -308,7 +305,7 @@ section > *:not(:last-child) {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);  /* 3 columns desktop */
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   max-width: 1100px;
   margin: 40px auto;
@@ -382,7 +379,6 @@ section > *:not(:last-child) {
   }
 }
 
-/* MOBILE */
 @media (max-width: 600px) {
   .projects-container {
     grid-template-columns: 1fr;
@@ -529,7 +525,7 @@ section > *:not(:last-child) {
   position: relative;
 }
 .contact-info p {
-  color: #888;
+  color: coral;
   font-size: 14px;
   margin-bottom: 5px;
 }
