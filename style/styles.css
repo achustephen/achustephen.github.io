@@ -27,9 +27,11 @@ html {
   padding: 15px 0;
   z-index: 1000;
 }
+
 ul{
   list-style: none;
 }
+
 .navbar-nav {
   display: flex;
   justify-content: center;
@@ -256,7 +258,6 @@ section > *:not(:last-child) {
 
 .skill-card {
    background: linear-gradient(145deg, #111, #0a0a0a);
-  color: coral;
   padding: 25px 20px;
   border-radius: 15px;
   border: 1px solid rgba(255,255,255,0.08);
@@ -392,7 +393,6 @@ section > *:not(:last-child) {
   color:coral;
   margin-bottom: 20px;
   padding: 0;
-  margin-bottom: 20px;
   text-align: center;
 }
 
